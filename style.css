@@ -1,0 +1,104 @@
+body {
+    background-color: #eeeeee;
+    color: #222222;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    background-color: #111111;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+header h1 {
+    color: #e63946;
+    font-size: 40px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+
+nav {
+    background-color: #222222;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #e63946;
+}
+
+
+main {
+    width: 85%;
+    margin: auto;
+    padding: 20px;
+}
+
+section {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+
+h2 {
+    color: #e63946;
+    font-size: 28px;
+}
+
+h3 {
+    color: #222222;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+
+.producto, .marca, .local, .contacto {
+    background-color: #eeeeee;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.producto img {
+    height: 200px;
+    width: 250px;
+    object-fit: contain;
+}
+
+
+ul {
+    display: inline-block;
+    text-align: left;
+}
+
+
+footer {
+    background-color: #111111;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
